@@ -1,0 +1,40 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f06, #f79);
+    text-align: center;
+    padding: 20px;
+}
+
+#complimentBtn {
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#complimentBtn:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
+
+#complimentText {
+    margin-top: 20px;
+    font-size: 24px;
+    color: blue; /* Цвет текста - синий */
+    transition: opacity 0.5s;
+    opacity: 1;
+}
